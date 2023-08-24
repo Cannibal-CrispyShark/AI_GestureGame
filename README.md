@@ -1,7 +1,8 @@
 # AI_GestureGame
 ## 写在前面：
-##### 隐马尔可夫算法预测猜拳小游戏
+#### 隐马尔可夫算法预测猜拳小游戏
 
+![Image text](https://github.com/Cannibal-CrispyShark/AI_GestureGame/blob/master/img/show_main.jpg)
 
 作者新手一枚
 
@@ -77,7 +78,9 @@ PySide2==5.15.2.1
 ### 该项目有两个UI
 ### “登陆”Log_In
 - log_in对象继承pyuic5自动生成的UI.py
-- ![](causally/handpose_model/my_Try/img/Show_login.jpg)
+
+![Image text](https://github.com/Cannibal-CrispyShark/AI_GestureGame/blob/master/img/Show_login.jpg)
+
 ### "游戏“Gesture_Game
 - VideoUI继承自pyuic5自动生成的UI.py，所列函数在其中完成相应功能
 - QMenu中QAction对应的函数切换栈容器stackwidget，实现游戏页面与Ranking页面的转跳
@@ -85,4 +88,4 @@ PySide2==5.15.2.1
 - stackwidget+Qtimer+隐马尔科夫模型，实现游戏对话框
 - 排名页面，由”数据库“user.csv导出，给出玩家胜率的排名
 
-![](causally/handpose_model/my_Try/img/show_main2.jpg)
+ ![Image text](https://github.com/Cannibal-CrispyShark/AI_GestureGame/blob/master/img/show_main2.jpg)
